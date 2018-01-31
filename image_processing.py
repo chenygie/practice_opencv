@@ -5,10 +5,10 @@ import numpy as np
 img = np.zeros((512,512,3),np.uint8)
 
 # Draw a diagonal blue line with thickness of 5px
-cv.line(img,(234,234git init),(511,511),(255,0,0),5)
+cv.line(img,(234,234),(511,511),(255,0,0),5)
 
 # Draw a circle
-cv.circle(img,(0,0),50,(0,0,255),-1)
+cv.circle(img,(128,128),50,(0,0,255),-1)
 
 # Draw Ellipse
 
